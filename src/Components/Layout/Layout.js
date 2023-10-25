@@ -1,10 +1,11 @@
-import react from "react";
 import Header from './Header/Header'
+import Body from './Body/Body'
 
 const Layout = ()=>{
     return (
         <>
             <Header/>
+            <Body/>
         </>
     )
 }
