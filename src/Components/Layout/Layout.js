@@ -1,10 +1,10 @@
 import Header from './Header/Header'
 import Body from './Body/Body'
 
-const Layout = ()=>{
+const Layout = (props)=>{
     return (
         <>
-            <Header/>
+            <Header Onclick={props.showCart}/>
             <Body/>
         </>
     )

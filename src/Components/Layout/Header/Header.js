@@ -1,12 +1,12 @@
 import './Header.css';
 import img from './meals.jpg'
 
-const Header = () => {
+const Header = (props) => {
     return (
         <>
                 <nav className="bg-color navbar logo">
                     React Meals
-                    <button className="btn border btn-outline-dark rounded-pill p-2 me-5 border-0">
+                    <button className="btn border btn-outline-dark rounded-pill p-2 me-5 border-0" onClick={props.Onclick}>
                         <div className="cart"> 🛒 Your cart
                             <span className="bg-danger pe-3 ps-3 list-unstyled border rounded-pill ms-3 mt-1 border-0 badge badge-primary">0</span>
                         </div>
